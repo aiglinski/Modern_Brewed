@@ -39,7 +39,8 @@ body, html{
 
 .pimg4{
   background-image:url('../img/coffeeHeart.jpeg');
-  min-height: cover;
+  /* change bottom height to cover map, not 100% */
+  min-height: 600px;
   width:100%;
 }
 
@@ -78,8 +79,9 @@ body, html{
 }
 .titleBlock{
   position: absolute;
-  top: 2%;
+  top: 5%;
   width: 100%;
+  vertical-align: center;
   text-align: center;
   font-size: 8vh;
   letter-spacing: .5vw;
@@ -108,12 +110,30 @@ body, html{
 .subtitle{
   color: inherit;
 }
+.socialIcons li{
+  display: inline-block;
+  border: 2px solid #fff;
+  /* border-color: blue; */
+  /* background-color: deepskyblue; */
+  text-align: center;
+  height: 80px;
+  width: 80px;
+  line-height: 80px;
+  text-align: center;
+  border-radius: 50%;
+}
+.socialIcons li:hover{
+  background-color: blue;
+  transform: rotate(360deg);
+  transition-duration: .8s;
+}
 
 .ptext .border{
   background-color: #777;
   color: #fff;
   padding: 20px;
 }
+
 
 /* Turn off parrallax for mobile */
 /* @media(max-width:568px){
