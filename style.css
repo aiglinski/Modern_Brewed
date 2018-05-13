@@ -78,26 +78,35 @@ body, html{
 }
 .titleBlock{
   position: absolute;
-  top: 12%;
+  top: 2%;
   width: 100%;
   text-align: center;
-  font-family: 'Anton', sans-serif;
   font-size: 8vh;
   letter-spacing: .5vw;
+  font-weight: bold;
   text-transform: uppercase;
 }
 
-.titleBlock .border{
-  background-color: #777;
+.titleBlock .trans{
+  /* background-color: #777; */
   color: #fff;
-  padding-left: 10px;
+  font-family: 'Bad Script', cursive;
+  /* padding-left: 10px;
   padding-right: 10px;
   padding-top: 3px;
-  padding-bottom: 3px;
+  padding-bottom: 3px; */
 }
 
-.titleBlock .border.trans{
+ .titleBlock .subtitle{
+  color: #fff;
+ }
+
+/* Turn title background off */
+/* .titleBlock .trans{
   background-color: transparent;
+} */
+.subtitle{
+  color: inherit;
 }
 
 .ptext .border{
