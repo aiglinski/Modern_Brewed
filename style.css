@@ -80,16 +80,31 @@ body, html{
   background-color: #AFDAD2;
   /* opacity: .4; */
 }
-.sectionTransition p{
-  opacity: 1 !important;
-}
-.navbar-brand{
-  color: #f4f4f4 !important;
-  font-weight: bold;
-}
-.navbar{
+
+
+.navbar-nav{
+  list-style: none;
   background-color: transparent;
+  text-align: center !important;
+  margin-right: auto;
+  margin-left: auto;
+  /* padding: 30; */
 }
+.nav-item{
+  padding: 0px 80px;
+  border-radius: 50%;
+}
+.nav-item a{
+  color: #fff !important;
+}
+.nav-item:hover{
+  background-color: deepskyblue;
+  border-radius: 50%;
+  color: #fff;
+  transition: .6s;
+}
+
+
 
 .ptext{
   position: absolute;
@@ -103,7 +118,7 @@ body, html{
 }
 .titleBlock{
   position: absolute;
-  top: 5%;
+  top: 25%;
   width: 100%;
   vertical-align: center;
   text-align: center;
