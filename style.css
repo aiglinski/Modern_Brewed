@@ -19,10 +19,13 @@ body, html{
 }
 
 .pimg1{
-  background-image:url('../img/coffeeStock.jpg');
+  background: linear-gradient(140deg, #FF1AC3, #7D7D7D);
+  opacity: 1;
+  background-size: 200% 400%;
   min-height: 100%;
   margin-bottom: 0;
   width:100%;
+  animation: g-back 5s ease infinite;
 }
 
 .pimg2{
@@ -44,27 +47,48 @@ body, html{
   width:100%;
 }
 
+@keyframes g-back{
+  0%{
+    background-position: 0% 50%;
+  }
+  50%{
+    background-position: 100% 50%;
+  }
+  100%{
+    background-position: 0% 50%;
+  }
+}
+
 .section{
   text-align: center;
   padding: 50px 80px;
 }
 
 .section-light{
-  background-color: #f4f4f4;
+  background-color: #FDFEFE;
   color: #666;
+
 }
 
-.section-dark{
+/* turning section dark off to attempt transition colors */
+/* .section-dark{
   background-color: #282e34;
   color: #ddd;
-}
+} */
 
+.sectionTransition{
+  background-color: #AFDAD2;
+  /* opacity: .4; */
+}
+.sectionTransition p{
+  opacity: 1 !important;
+}
 .navbar-brand{
   color: #f4f4f4 !important;
   font-weight: bold;
 }
 .navbar{
-  background-color: #646360;
+  background-color: transparent;
 }
 
 .ptext{
@@ -126,7 +150,7 @@ body, html{
 .socialIcons li:hover{
 
   transform: rotate(360deg) scale(1.2);
-  transition-duration: .8s;
+  transition-duration: .5s;
 }
 
 .socialIcons i{
