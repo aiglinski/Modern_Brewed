@@ -10,23 +10,35 @@ body, html{
 
 .pimg1, .pimg2, .pimg3, .pimg4{
    position:relative;
-   opacity: .7;
    background-position: center;
    background-size: cover;
    background-repeat: no-repeat;
-
    background-attachment: fixed;
 }
+.pimg2, .pimg3, .pimg4{
+  opacity: .7;
+}
 
-.pimg1{
+
+/* image1 as gradient */
+/* .pimg1{
   background: linear-gradient(140deg, #FF1AC3, #7D7D7D);
-  opacity: 1;
   background-size: 200% 400%;
   min-height: 100%;
   margin-bottom: 0;
   width:100%;
   animation: g-back 5s ease infinite;
+} */
+
+/* image1 as skyline */
+.pimg1{
+  background-image: url('../img/MilwaukeeSkyline.png');
+  background-color: #251E21;
+  background-position: bottom;
+  background-size: contain;
+  min-height: 100%;
 }
+
 
 .pimg2{
   background-image:url('../img/iHeartCoffee.jpg');
@@ -47,7 +59,8 @@ body, html{
   width:100%;
 }
 
-@keyframes g-back{
+/* script for gradient animation */
+/* @keyframes g-back{
   0%{
     background-position: 0% 50%;
   }
@@ -57,7 +70,7 @@ body, html{
   100%{
     background-position: 0% 50%;
   }
-}
+} */
 
 .section{
   text-align: center;
@@ -84,23 +97,49 @@ body, html{
 
 .navbar-nav{
   list-style: none;
-  background-color: transparent;
-  text-align: center !important;
+  border-radius: 100px;
+  /* background-color: transparent; */
+  /* text-align: center !important; */
   margin-right: auto;
   margin-left: auto;
   /* padding: 30; */
 }
 .nav-item{
-  padding: 0px 80px;
-  border-radius: 50%;
+  padding: 10px 10px;
+  margin-left: 80px;
+  margin-right: 80px;
+  margin-top: 20px;
 }
-.nav-item a{
+.nav-item .nav-link{
   color: #fff !important;
 }
-.nav-item:hover{
-  background-color: deepskyblue;
-  border-radius: 50%;
+.scrollButton .nav-link{
+  position: absolute;
+  bottom: 30px;
+  width: 100px;
+  height: 100px;
+  right:25%;
+  left:50%;
+  margin-left:-150px;
+}
+.scrollButton .ArrowLink{
+  position: absolute;
+  left: 50%;
+  bottom: 30px;
+  margin-left: -50px;
+  color: deepskyblue;
+}
+.scrollButton .ArrowLink:hover{
+  transform: scale(1.2);
   color: #fff;
+  transition-duration: .3s;
+
+}
+
+.nav-item:hover{
+  transform: scale(1.2);
+  border: 2px solid #fff;
+  border-color: #fff;
   transition: .6s;
 }
 
@@ -118,7 +157,7 @@ body, html{
 }
 .titleBlock{
   position: absolute;
-  top: 25%;
+  top: 15%;
   width: 100%;
   vertical-align: center;
   text-align: center;
@@ -131,7 +170,7 @@ body, html{
 .titleBlock .trans{
   /* background-color: #777; */
   color: #fff;
-  font-family: 'Bad Script', cursive;
+  font-family: 'Playfair Display', serif;
   /* padding-left: 10px;
   padding-right: 10px;
   padding-top: 3px;
@@ -142,6 +181,7 @@ body, html{
   color: #fff;
  }
 
+
 /* Turn title background off */
 /* .titleBlock .trans{
   background-color: transparent;
@@ -150,22 +190,25 @@ body, html{
 .socialIcons li{
   display: inline-block;
   border: 2px solid #fff;
-  color: #fff;
   /* border-color: blue; */
   /* background-color: deepskyblue; */
-  /* text-align: center;
-  margin-left: auto;
-  margin-right: auto; */
+  text-align: center;
   height: 80px;
   width: 80px;
   line-height: 80px;
   border-radius: 50%;
-  font-weight: lighter;
+  /* font-weight: lighter; */
 }
 .socialIcons li:hover{
-
-  transform: rotate(360deg) scale(1.2);
+  transform: rotate(360deg) scale(1.0);
   transition-duration: .5s;
+}
+.socialIcons a{
+  color: #fff !important;
+}
+.socialIcons a:hover{
+  color: #fff !important;
+  text-decoration: none;
 }
 
 .socialIcons i{
@@ -196,6 +239,19 @@ body, html{
   color: #fff;
   padding: 20px;
 }
+
+.SectionLink{
+  color: #fff;
+}
+.SectionLink:hover{
+  transform: scale(.5) !important;
+  transition-duration: 2s;
+  color: purple;
+  /* background-color: deepskyblue; */
+
+}
+
+
 
 
 /* Turn off parrallax for mobile */
