@@ -122,20 +122,6 @@ body, html{
   left:50%;
   margin-left:-150px;
 }
-.scrollButton .ArrowLink{
-  position: absolute;
-  left: 50%;
-  bottom: 30px;
-  margin-left: -50px;
-  color: deepskyblue;
-}
-.scrollButton .ArrowLink:hover{
-  transform: scale(1.2);
-  color: #fff;
-  transition-duration: .3s;
-
-}
-
 .nav-item:hover{
   transform: scale(1.2);
   border: 2px solid #fff;
@@ -143,7 +129,96 @@ body, html{
   transition: .6s;
 }
 
+.scrollButton .ArrowLink{
+  position: absolute;
+  left: 50%;
+  bottom: 30px;
+  margin-left: -50px;
+  color: deepskyblue;
+}
+/* scroll button hover effect */
+/* .scrollButton .ArrowLink:hover{
+  transform: scale(1.2);
+  color: #fff;
+  transition-duration: .3s;
+} */
 
+
+/* attempt at animating pulse on scroll button */
+/* .fa-pulse{
+  display: inline-block !important;
+	-moz-animation: pulse 2s infinite linear;
+	-o-animation: pulse 2s infinite linear;
+	-webkit-animation: pulse 2s infinite linear;
+	animation: pulse 2s infinite linear;
+}
+
+@-webkit-keyframes pulse {
+	0% { opacity: 1; }
+	50% { opacity: 0; }
+	100% { opacity: 1; }
+}
+@-moz-keyframes pulse {
+	0% { opacity: 1; }
+	50% { opacity: 0; }
+	100% { opacity: 1; }
+}
+@-o-keyframes pulse {
+	0% { opacity: 1; }
+	50% { opacity: 0; }
+	100% { opacity: 1; }
+}
+@-ms-keyframes pulse {
+	0% { opacity: 1; }
+	50% { opacity: 0; }
+	100% { opacity: 1; }
+}
+@keyframes pulse {
+	0% { opacity: 1; }
+	50% { opacity: 0; }
+	100% { opacity: 1; }
+} */
+
+/* adding bounce effect to scroll button */
+.fa-bounce{
+  display: inline-block;
+    position: relative;
+    -moz-animation: bounce 1s infinite linear;
+    -o-animation: bounce 1s infinite linear;
+    -webkit-animation: bounce 1s infinite linear;
+    animation: bounce 1s infinite linear;
+}
+
+@-webkit-keyframes bounce {
+    0% { top: 0; }
+    50% { top: -0.2em; }
+    70% { top: -0.3em; }
+    100% { top: 0; }
+}
+@-moz-keyframes bounce {
+    0% { top: 0; }
+    50% { top: -0.2em; }
+    70% { top: -0.3em; }
+    100% { top: 0; }
+}
+@-o-keyframes bounce {
+    0% { top: 0; }
+    50% { top: -0.2em; }
+    70% { top: -0.3em; }
+    100% { top: 0; }
+}
+@-ms-keyframes bounce {
+    0% { top: 0; }
+    50% { top: -0.2em; }
+    70% { top: -0.3em; }
+    100% { top: 0; }
+}
+@keyframes bounce {
+    0% { top: 0; }
+    50% { top: -0.2em; }
+    70% { top: -0.3em; }
+    100% { top: 0; }
+}
 
 .ptext{
   position: absolute;
@@ -225,7 +300,7 @@ body, html{
   background-color: #3b5998 !important;
 }
 .socialIcons .mailIcon:hover{
-  background-color: deepskyblue !important;
+  background-color: #00FF00 !important;
 }
 .socialIcons .twitterIcon:hover{
   background-color: #1da1f2 !important;
@@ -248,7 +323,12 @@ body, html{
   transition-duration: 2s;
   color: purple;
   /* background-color: deepskyblue; */
+}
 
+#pixlee_container{
+  width: 99%;
+  margin-left: .5%;
+  margin-right: .5%;
 }
 
 
