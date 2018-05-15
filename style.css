@@ -32,8 +32,8 @@ body, html{
 
 /* image1 as skyline */
 .pimg1{
-  background-image: url('../img/MilwaukeeSkyline.png');
-  background-color: #251E21;
+  background-image: url('../img/MilwaukeeSkyline.jpg');
+  background-color: #040308;
   background-position: bottom;
   background-size: contain;
   min-height: 100%;
@@ -113,6 +113,11 @@ body, html{
 .nav-item .nav-link{
   color: #fff !important;
 }
+.collapse .navbar-nav > li {
+  background-color: #040308 !important;
+}
+
+
 .scrollButton .nav-link{
   position: absolute;
   bottom: 30px;
@@ -134,14 +139,14 @@ body, html{
   left: 50%;
   bottom: 30px;
   margin-left: -50px;
-  color: deepskyblue;
+  color: #fff;
 }
 /* scroll button hover effect */
-/* .scrollButton .ArrowLink:hover{
-  transform: scale(1.2);
-  color: #fff;
+.scrollButton .ArrowLink:hover{
+  transform: scale(1.0);
+  color: deepskyblue;
   transition-duration: .3s;
-} */
+}
 
 
 /* attempt at animating pulse on scroll button */
