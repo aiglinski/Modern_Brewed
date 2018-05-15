@@ -7,7 +7,7 @@
    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
       <meta charset="UTF-8">
       <title>Events</title>
-     <link rel="stylesheet" type="text/css" href="Style.css"/>
+     <link rel="stylesheet" type="text/css" href="menuStyle.css"/>
     <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
   </head>
 
@@ -15,7 +15,7 @@
 
 <div class="row">
      <div class="col-12 col-md-4 eventPic eventPicLeft">
-       <img src="../openMic.jpg" alt="" />
+       <img src="../img/openMic.jpg" alt="" />
      </div>
    <div class="col-12 col-md-8 eventText eventTextRight section">
      <h2>Open Mic</h2>
@@ -29,13 +29,13 @@
      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium voluptatem voluptatum quas a molestiae veritatis voluptate dignissimos sit quos ad, id dicta quibusdam totam obcaecati nisi eum alias unde adipisci, laudantium doloribus illo magni aperiam ex distinctio incidunt. Tempora voluptates eveniet, illum exercitationem. Cumque delectus, adipisci ad animi molestias recusandae!</p>
    </div>
    <div class="d-none d-md-block col-md-4 eventPic eventPicRight">
-     <img src="../Music.jpg" alt="" />
+     <img src="../img/Music.jpg" alt="" />
    </div>
 </div>
 
 <div class="row">
   <div class="d-block d-sm-block d-md-none eventPic eventPicLeft">
-    <img src="../Music.jpg" alt="" />
+    <img src="../img/Music.jpg" alt="" />
   </div>
    <div class="d-block d-sm-block d-md-none eventText eventTextRight section">
      <h2>Live Music</h2>
@@ -46,7 +46,7 @@
 
 <div class="row">
      <div class="col-12 col-md-4  eventPic eventPicLeft">
-       <img src="../Artist.jpg" alt="" />
+       <img src="../img/Artist.jpg" alt="" />
      </div>
    <div class="col-12 col-md-8 eventText eventTextRight section">
      <h2>Pop-Up Galleries</h2>
@@ -58,7 +58,7 @@
 <h2>Have your own idea?</h2>
 <p>Contact us by clicking the icon and let us know what you have in mind.</p>
   <div class = "Btn-List text-center">
-   <a class = "btn btn1 btn-default" href="mailto:sheila@brewedonbrady.com"><i class="fas fa-envelope fa-lg" id="emailIcon"></i><a/>
+   <a class = "btn btn1 btn-default" href="mailto:sheila@brewedonbrady.com"><i class="fas fa-envelope fa-lg fa-3x" id="emailIcon"></i><a/>
   </div>
 </div>
 
@@ -82,17 +82,19 @@
     distance: '300px',
   });
   sr.reveal('.eventPicLeft', {
+    delay: 1000,
     duration: 2000,
     origin: 'left',
-    distance: '300px',
+    distance: '800px',
   });
   sr.reveal('.eventPicRight', {
+    delay: 1000,
     duration: 2000,
     origin: 'right',
-    distance: '300px',
+    distance: '800px',
   });
   sr.reveal('.eventContact', {
-    delay: 1000,
+    delay: 500,
     duration: 2000,
     origin: 'bottom',
     distance: '100px',

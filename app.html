@@ -7,7 +7,7 @@
     <title>Appetizers</title>
     <meta name="description" content="DESCRIPTION">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="stylesheet" href="Style.css">
+    <link rel="stylesheet" href="menuStyle.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
 
     <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
@@ -26,13 +26,13 @@
   <div class="row">
     <div class="col-12 d-md-block ptext menuTitle">
       <!-- <div class="border"> -->
-        <h1>Lunch and Appetizers</h1>
+        <h1>Appetizers</h1>
       </div>
     </div>
 
   <div class="row">
        <div class="col-12 col-md-4 eventPic eventPicLeft">
-         <img src="../slider/Placeholder.jpg" alt="" />
+         <img src="../img/PlaceHolder.png" alt="" />
        </div>
      <div class="col-12 col-md-8 eventText eventTextRight section">
        <h2>Pita and Hummus</h2>
@@ -47,13 +47,13 @@
        <p>El Rey tortilla chips with melted cheddar cheese served with sour cream, guacamole, salsa and pickled jalapenos.</p>
      </div>
      <div class="d-none d-md-block col-md-4 eventPic eventPicRight">
-       <img src="../slider/Placeholder.jpg" alt="" />
+       <img src="../img/PlaceHolder.png" alt="" />
      </div>
   </div>
 
   <div class="row">
-    <div class="col-12 d-md-none eventPic">
-      <img src="../slider/Placeholder.jpg" alt="" />
+    <div class="col-12 d-md-none eventPic eventPicRight">
+      <img src="../img/PlaceHolder.png" alt="" />
     </div>
      <div class="col-12 d-md-none eventText section">
        <h2>The Works</h2>
@@ -64,7 +64,7 @@
 
   <div class="row">
        <div class="col-12 col-md-4 eventPic eventPicLeft">
-         <img src="../slider/placeholder.jpg" alt="" />
+         <img src="../img/PlaceHolder.png" alt="" />
        </div>
      <div class="col-12 col-md-8 eventText eventTextRight section">
        <h2>Quesadilla</h2>
@@ -79,13 +79,13 @@
 
      </div>
      <div class="d-none d-md-block col-md-4 eventPic eventPicRight">
-       <img src="../slider/PlaceHolder.jpg" alt="" />
+       <img src="../img/PlaceHolder.png" alt="" />
      </div>
   </div>
 
   <div class="row">
-    <div class="col-12 d-md-none eventPic">
-      <img src="../slider/PlaceHolder.jpg" alt="" />
+    <div class="col-12 d-md-none eventPic eventPicRight">
+      <img src="../img/PlaceHolder.png" alt="" />
     </div>
      <div class="col-12 d-md-none eventText section">
        <h2>Brewed's Famous Vegetarian Chilli<br>or<br>Soup of the Day</h2>
@@ -95,7 +95,7 @@
 
   <div class="row">
        <div class="col-12 col-md-4 eventPic eventPicLeft">
-         <img src="../slider/placeholder.jpg" alt="" />
+         <img src="../img/PlaceHolder.png" alt="" />
        </div>
      <div class="col-12 col-md-8 eventText eventTextRight section">
        <h2>Small Side Salad</h2>
@@ -109,13 +109,13 @@
        <p>Spring green mix, shredded carrot, red onion, cucumber, toato and avocado silces served with a side of our house made creamy balsamic or lemon herb vinaigrette.</p>
      </div>
      <div class="d-none d-md-block col-md-4 eventPic eventPicRight">
-       <img src="../slider/PlaceHolder.jpg" alt="" />
+       <img src="../img/PlaceHolder.png" alt="" />
      </div>
   </div>
 
   <div class="row">
-    <div class="col-12 d-md-none eventPic">
-      <img src="../slider/PlaceHolder.jpg" alt="" />
+    <div class="col-12 d-md-none eventPic eventPicRight">
+      <img src="../img/PlaceHolder.png" alt="" />
     </div>
      <div class="col-12 d-md-none eventText section">
        <h2>House Salad</h2>
@@ -125,7 +125,7 @@
 
   <div class="row">
        <div class="col-12 col-md-4 eventPic eventPicLeft">
-         <img src="../slider/placeholder.jpg" alt="" />
+         <img src="../img/PlaceHolder.png" alt="" />
        </div>
      <div class="col-12 col-md-8 eventText eventTextRight section">
        <h2>Seasonal Salad</h2>
@@ -145,22 +145,28 @@
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
 
   <script>
-    window.sr = ScrollReveal();
-    sr.reveal('.menuTitle', {
-      duration: 1000,
-      origin: 'bottom'
-    });
-    sr.reveal('.eventPicLeft', {
-      duration: 2000,
-      origin: 'left',
-      distance: '300px',
-    });
-    sr.reveal('.eventPicRight', {
-      duration: 2000,
-      origin: 'right',
-      distance: '300px',
-    });
-  </script>
+     if ( $(window).width() > 768) {
+       window.sr = ScrollReveal();
+       sr.reveal('.menuTitle', {
+         duration: 1000,
+         origin: 'top'
+       });
+       sr.reveal('.eventPicLeft', {
+         duration: 2000,
+         origin: 'left',
+         distance: '300px',
+       });
+       sr.reveal('.eventPicRight', {
+         duration: 2000,
+         origin: 'right',
+         distance: '300px',
+       });
+     }
+     else {
+       //Add your javascript for small screens here
+     }
+
+     </script>
 
 </body>
 

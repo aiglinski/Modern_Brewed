@@ -89,9 +89,12 @@ h2{
   text-align: center;
 }
 
-
-
 .breakfastAlaCart{
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.eventContact{
   text-align: center;
   margin-bottom: 50px;
 }
