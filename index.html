@@ -10,6 +10,7 @@
      <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
      <script src="https://maps.googleapis.com/maps/api/js?callback=myMap"></script>
       <link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
       <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
 
       <!--[if lt IE 9]>
@@ -24,25 +25,25 @@
         <span class="navbar-toggler-icon"></span>
       </button>
 
-      <div class="collapse navbar-collapse" id="navbar">
+      <div class="collapse navbar-collapse navOutline" id="navbar">
         <ul class="navbar-nav ml-auto">
           <!-- <li class="nav-item">
             <a class="nav-link" href="#menuSection">See More</a>
           </li> -->
-          <li class="nav-item">
-          <a class="nav-link" href="../breakfast.html">BreakFast</a>
+          <li class="nav-item nav-linkLeft">
+          <a class="nav-link " href="../breakfast.html">Breakfast</a>
           </li>
-          <li class="nav-item">
+          <li class="nav-item nav-itemCenter">
           <a class="nav-link" href="../app.html">Appetizers</a>
           </li>
-          <li class="nav-item">
+          <li class="nav-item nav-itemCenter">
           <a class="nav-link" href="../lunch.html">Sandwhiches</a>
           </li>
-          <li class="nav-item">
+          <li class="nav-item nav-itemCenter">
           <a class="nav-link" href="../drinks.html">Drinks</a>
           </li>
           <li class="nav-item">
-          <a class="nav-link" href="../events.html">Events</a>
+          <a class="nav-link nav-linkRight" href="../events.html">Events</a>
           </li>
 
 
@@ -63,16 +64,18 @@
     </nav>
   <div class="titleBlock">
     <div class="trans titleText">
+      <span class="border">
       Brewed Cafe
+      </span>
     </div>
-    <div class="subtitle">
-      <h5>
-        1208 E Brady <br>
-        (414)276-2739 <br>
-        6:30am-9:00pm Daily
-      </h5>
+    <div class="d-block d-sm-block d-md-none mobileSubtitle">
+      <span class="mobileBorder">
+        1208 E Brady Street
+        <br>
+        (414)276-2739
+      </span>
     </div>
-    <div class="d-none d-sm-none d-md-block wrapper socialIcons">
+    <div class="d-none d-sm-none d-md-block socialIcons">
       <ul>
         <li class="mailIcon"><a href="mailto:sheila@brewedonbrady.com"><i class="far fa-envelope fa-sm circleIcon" aria-hidden="true"></i></a></li>
         <li class="twitterIcon"><a href="https://twitter.com/brewedcafe1?lang=en"><i class="fab fa-twitter fa-sm circleIcon" aria-hidden="true"></i></a></li>
@@ -110,7 +113,7 @@
 <div class="pimg3">
   <div class="ptext">
     <span class="border">
-      <a href="../instafeed.html" class="SectionLink">Gallery Link</a>
+      <a href="../instafeed.html" class="SectionLink">Gallery</a>
     </span>
   </div>
 </div>
@@ -120,11 +123,59 @@
 </section>
 
 <div class="pimg4">
-  <div class="ptext">
-    <span class="border">
-      Section four
+
+
+<!-- turne off map for DT, still active for mobile -->
+<!-- <div class="d-none d-sm-none d-md-block googleEmbed">
+    <iframe
+      width="600"
+      height="450"
+      frameborder="0" style="border:0"
+      src="https://www.google.com/maps/embed/v1/place?key=AIzaSyCzBcvu8kN0weGMrta1pFw6O4NoAsxZ-Mw
+        &q=Brewed+Cafe,Milwaukee+Wi" allowfullscreen>
+    </iframe>
+</div> -->
+
+<div class="d-block d-sm-block d-md-none googleEmbedM">
+    <iframe
+      width="100%"
+      height="100%"
+      frameborder="0" style="border:0"
+      src="https://www.google.com/maps/embed/v1/place?key=AIzaSyCzBcvu8kN0weGMrta1pFw6O4NoAsxZ-Mw
+        &q=Brewed+Cafe,Milwaukee+Wi" allowfullscreen>
+    </iframe>
+</div>
+
+<!-- disabled twitter feed for cleaner look -->
+<!-- <div class="d-none d-sm-none d-md-block twitterFeed">
+   <a class="twitter-timeline"
+      href="https://twitter.com/brewedcafe1"
+      data-tweet-limit="1">
+Tweets by @brewedonbrady</a></div>
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script> -->
+
+<div class="d-none d-sm-none d-md-block subtitleBottom">
+  <h2>Stop in and say Hi!</h2>
+  <h5>
+    1208 E Brady <br>
+    Milwaukee, WI, 53202 <br>
+    (414)276-2739
+    <br><br>
+    6:30am-9:00pm Daily
+  </h5>
+</div>
+
+<!-- disabled twitter feed for cleaner look -->
+<div class="d-none d-sm-none d-md-block twitterFeed">
+   <a class="twitter-timeline"
+      href="https://twitter.com/brewedcafe1"
+      data-tweet-limit="1">
+Tweets by @brewedonbrady</a></div>
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+    <span class="Citation">
+      <cite>Igloo Web.Dev</cite>
     </span>
-  </div>
 </div>
 
 
