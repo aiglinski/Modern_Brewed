@@ -151,9 +151,7 @@ body, html{
   transition: .6s;
 }
 
-.navFull .navbar-nav ul{
-  border: 15px solid white !important;
-}
+
 
 .scrollButton .ArrowLink{
   position: absolute;
@@ -259,8 +257,9 @@ body, html{
 }
 .titleBlock{
   position: absolute;
-  top: 15%;
-  width: 100%;
+  top: 12%;
+  width: 40%;
+  margin-left: 30%;
   vertical-align: center;
   text-align: center;
   font-size: 8vh;
@@ -269,9 +268,18 @@ body, html{
   text-transform: uppercase;
 }
 
+.titleBackground{
+  background-color: #E0CEAD;
+  border: 5px solid #494960;
+}
+
+.titleBackground h5{
+  color: #494960 !important;
+}
+
 .titleBlock .trans{
   /* background-color: #777; */
-  color: #fff;
+  color: #494960 ;
   font-family: 'Playfair Display', serif;
   /* padding-left: 10px;
   padding-right: 10px;
