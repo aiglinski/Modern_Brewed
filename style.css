@@ -163,7 +163,7 @@ body, html{
 /* scroll button hover effect */
 .scrollButton .ArrowLink:hover{
   transform: scale(1.0);
-  color: #494960;
+  /* color: #494960; */
   transition-duration: .3s;
 }
 
