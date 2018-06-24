@@ -153,6 +153,32 @@ body, html{
   transition: .6s;
 }
 
+.mobileButtons{
+  margin-top: 15%;
+}
+
+.mobileButtons button{
+  display: block;
+  font-size: 3vh;
+  margin-top: 15px;
+  margin-left: 5px;
+  background-color: #E0CEAD;
+  color: #494960;
+  border-width: 2px;
+  border-color: #494960;
+  font-family: 'Playfair Display', serif;
+}
+
+.mobileButtons button:hover{
+  display: block;
+  margin-top: 5px;
+  margin-left: 5px;
+  background-color: #E0CEAD;
+  color: #494960;
+  font-family: 'Playfair Display', serif;
+  transform: scale(1.2);
+}
+
 
 
 .scrollButton .ArrowLink{
