@@ -13,6 +13,10 @@ body, html{
   color: #666;
 }
 
+h1{
+  font-size: 16vh;
+}
+
 .pimg1, .pimg2, .pimg3, .pimg4{
    position:relative;
    background-position: center;
@@ -268,6 +272,10 @@ body, html{
   text-transform: uppercase;
 }
 
+.titleBlock .titleText h1{
+  font-size: 6vh !important;
+}
+
 .titleBackground{
   background-color: #E0CEAD;
   border: 5px solid #494960;
@@ -277,19 +285,20 @@ body, html{
   color: #494960 !important;
 }
 
+
 .titleBlock .trans{
   /* background-color: #777; */
   color: #494960 ;
   font-family: 'Playfair Display', serif;
+  /* transform: scale(1.5); */
   /* padding-left: 10px;
   padding-right: 10px;
   padding-top: 3px;
   padding-bottom: 3px; */
 }
 
- .titleBlock .subtitle{
-  color: #fff;
- }
+
+
 
 
 /* Turn title background off */
