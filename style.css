@@ -13,9 +13,7 @@ body, html{
   color: #666;
 }
 
-h1{
-  font-size: 16vh;
-}
+
 
 .pimg1, .pimg2, .pimg3, .pimg4{
    position:relative;
@@ -167,7 +165,7 @@ h1{
 /* scroll button hover effect */
 .scrollButton .ArrowLink:hover{
   transform: scale(1.0);
-  color: #494960;
+  /* color: #494960; */
   transition-duration: .3s;
 }
 
@@ -274,6 +272,7 @@ h1{
 
 .titleBlock .titleText h1{
   font-size: 6vh !important;
+  font-weight: bold;
 }
 
 .titleBackground{
@@ -283,6 +282,8 @@ h1{
 
 .titleBackground h5{
   color: #494960 !important;
+  font-size: 3vh;
+  font-weight: lighter;
 }
 
 
