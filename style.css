@@ -118,11 +118,11 @@ body, html{
 }
 .nav-item{
   /* border-radius: 28px; */
-  font-size: 20px;
+  font-size: 22px;
   /* padding: 10px 5px; */
   /* margin-left: 5vw; */
   /* margin-right: 5v; */
-  margin-top: 20px;
+  margin-top: 0px;
 }
 
 
@@ -134,8 +134,15 @@ body, html{
   text-align: center;
 }
 .collapse .navbar-nav > li {
-  background-color: #E0CEAD !important;
+  /* background-color: #E0CEAD !important; */
 }
+
+.navFull > ul{
+  background-color: #E0CEAD !important;
+  margin-top: 20px;
+}
+
+
 
 
 .scrollButton .nav-link{
@@ -147,7 +154,7 @@ body, html{
   left:50%;
   margin-left:-150px;
 }
-.nav-item a:hover{
+.navFull > ul > li :hover{
   border: 2px solid #494960;
   background-color: #fff;
   /* border-color: #fff; */
