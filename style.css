@@ -101,6 +101,7 @@ body, html{
 
 #navbar ul{
   max-width: 100% !important;
+  position: static;
   /* border-radius: 28px; */
 }
 
@@ -154,7 +155,7 @@ body, html{
 }
 
 .mobileButtons{
-  margin-top: 15%;
+  margin-top: 10%;
 }
 
 .mobileButtons button{
