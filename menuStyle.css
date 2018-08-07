@@ -8,6 +8,13 @@ body, html{
   color: #666;
 }
 
+/* .row .Banner{
+  background-image: url('../img/BrewedBanner.png');
+  min-width: 160vw !important;
+  height: 40vh !important;
+  background-repeat: no-repeat;
+} */
+
 p{
   margin: 0px 20px;
   top: 50%;
