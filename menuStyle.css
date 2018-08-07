@@ -6,11 +6,11 @@ body, html{
   font-weight: 400;
   line-height: 1.8em;
   color: #666;
-  background-color: #D8D8D6;
+  background-color: #F9F1C9;
 }
 
 .menubackground{
-  background-color: #D8D8D6 !important;
+  background-color: #F9F1C9 !important;
   /* opacity: .3; */
 }
 
