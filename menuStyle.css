@@ -6,14 +6,13 @@ body, html{
   font-weight: 400;
   line-height: 1.8em;
   color: #666;
+  background-color: #D8D8D6;
 }
 
-/* .row .Banner{
-  background-image: url('../img/BrewedBanner.png');
-  min-width: 160vw !important;
-  height: 40vh !important;
-  background-repeat: no-repeat;
-} */
+.menubackground{
+  background-color: #D8D8D6 !important;
+  /* opacity: .3; */
+}
 
 p{
   margin: 0px 20px;
