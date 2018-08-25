@@ -431,6 +431,11 @@ body, html{
 }
 
 
+.poem{
+  font-size: 18px !important;
+  font-style: italic;
+}
+
 
 /* Turn off parrallax for mobile */
 /* @media(max-width:568px){
