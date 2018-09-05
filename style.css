@@ -439,7 +439,7 @@ body, html{
 .Footer{
   color: white;
   font-size: 150%;
-  position: fixed;
+  position: absolute;
   bottom: 4%;
   left: 2%;
 }
