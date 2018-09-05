@@ -436,6 +436,14 @@ body, html{
   font-style: italic;
 }
 
+.Footer{
+  color: white;
+  font-size: 150%;
+  position: fixed;
+  bottom: 4%;
+  left: 2%;
+}
+
 
 
 
