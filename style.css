@@ -205,11 +205,11 @@ body, html{
   color: #fff;
 }
 /* scroll button hover effect */
-.scrollButton .ArrowLink:hover{
+/* .scrollButton .ArrowLink:hover{
   transform: scale(1.0);
   /* color: #494960; */
-  transition-duration: .3s;
-}
+  /* transition-duration: .3s;
+} */ */
 
 
 
@@ -249,14 +249,14 @@ body, html{
 } */
 
 /* adding bounce effect to scroll button */
-.fa-bounce{
+/* .fa-bounce{
   display: inline-block;
     position: relative;
     -moz-animation: bounce 1s infinite linear;
     -o-animation: bounce 1s infinite linear;
     -webkit-animation: bounce 1s infinite linear;
     animation: bounce 1s infinite linear;
-}
+} */
 
 @-webkit-keyframes bounce {
     0% { top: 0; }
@@ -363,7 +363,7 @@ body, html{
 }
 .socialIcons li:hover{
   transform: rotate(360deg) scale(1.0);
-  transition-duration: .5s;
+  transition-duration: 1s;
 }
 .socialIcons a{
   color: #fff !important;
