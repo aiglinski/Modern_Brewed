@@ -1,0 +1,13 @@
+body,html{
+  background-color: blue;
+}
+
+/* .menuOne, .menuTwo, .menuThree {
+  transform: rotate(90deg);
+} */
+
+
+.menuSetup{
+  margin-top: 250px;
+  transform: rotate(90deg);
+}
