@@ -40,7 +40,7 @@ body, html{
 /* image1 as skyline */
 .pimg1{
   background-image: url('../img/drinkCoffee.jpg');
-  background-position: bottom;
+  background-position: bottom; */
   width: 100%;
   min-height: 100%;
  }
@@ -173,7 +173,7 @@ body, html{
 
 .mobileButtons button{
   display: block;
-  font-size: 3vh;
+  font-size: 3.2vw;
   margin-top: 15px;
   margin-left: 5px;
   background-color: #E0CEAD;
@@ -306,12 +306,11 @@ body, html{
   margin-left: 30%;
   vertical-align: center;
   text-align: center;
-  /* font-size: 6vw; */
+  font-size: 8vh;
   letter-spacing: .5vw;
   font-weight: bold;
   text-transform: uppercase;
 }
-
 
 .titleBlock .titleText h1{
   font-size: 6.5vw !important;
