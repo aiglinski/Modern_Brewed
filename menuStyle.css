@@ -52,9 +52,9 @@ h2{
   max-height: auto;
   float: left;
 }
-.row{
+/* .row{
   padding: 20px 0px;
-}
+} */
 }
 
 
@@ -105,13 +105,25 @@ h2{
   margin-bottom: 50px;
 }
 
-.alacart img{
+.container{
+  min-width: 100vw;
+  margin-left: 0;
+  margin-right: auto;
+  float: left !important;
+}
+
+.container .row .alacart img{
   display: inline-block;
   max-width: 100%;
   max-height: auto;
+  float: left !important;
   text-align: center;
   margin-left: auto;
   margin-right: auto;
+}
+
+.alacart{
+  padding: 20px 0;
 }
 
 /* .row .alacart img{
