@@ -40,10 +40,10 @@ body, html{
 /* image1 as skyline */
 .pimg1{
   background-image: url('../img/drinkCoffee.jpg');
-  /* background-position: bottom; */
+  background-position: bottom; 
   width: 100%;
   min-height: 100%;
-}
+ }
 
 
 .pimg2{
