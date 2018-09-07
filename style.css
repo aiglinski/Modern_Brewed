@@ -40,7 +40,7 @@ body, html{
 /* image1 as skyline */
 .pimg1{
   background-image: url('../img/drinkCoffee.jpg');
-  background-position: bottom; 
+  background-position: bottom;
   width: 100%;
   min-height: 100%;
  }
@@ -306,14 +306,15 @@ body, html{
   margin-left: 30%;
   vertical-align: center;
   text-align: center;
-  font-size: 8vh;
+  /* font-size: 6vw; */
   letter-spacing: .5vw;
   font-weight: bold;
   text-transform: uppercase;
 }
 
+
 .titleBlock .titleText h1{
-  font-size: 6.5vh !important;
+  font-size: 6.5vw !important;
   font-weight: bold;
 }
 
@@ -324,7 +325,7 @@ body, html{
 
 .titleBackground h5{
   color: #494960 !important;
-  font-size: 2.5vh;
+  font-size: 2.5vw;
   font-weight: lighter;
 }
 
